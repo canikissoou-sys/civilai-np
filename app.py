@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-
+from boq import render_boq_generator
 st.set_page_config(
     page_title="CivilAI Nepal",
     page_icon="🏗️",
@@ -20,6 +20,7 @@ tab1, tab2, tab3 = st.tabs([
     "Concrete Calculator",
     "Brickwork Calculator",
     "AI Engineering Assistant"
+    "BOQ Generator"
 ])
 
 with tab1:
@@ -152,3 +153,5 @@ st.caption(
     "Educational assistance only. Verify engineering "
     "calculations and designs with qualified professionals."
 )
+with tab4:
+    render_boq_generator()
