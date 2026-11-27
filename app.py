@@ -33,6 +33,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
     "Brickwork Calculator",
     "AI Engineering Assistant",
     "BOQ Generator"
+    "Project Cost Estimator"
 ])
 
 
@@ -400,3 +401,5 @@ st.caption(
     "Educational assistance only. Verify all calculations, "
     "designs, quantities and rates with qualified professionals."
 )
+with tab5:
+    render_cost_estimator()
