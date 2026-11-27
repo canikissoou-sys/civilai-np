@@ -28,7 +28,7 @@ st.write(
 
 # ---------------- FOUR MAIN TABS ----------------
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "Concrete Calculator",
     "Brickwork Calculator",
     "AI Engineering Assistant",
