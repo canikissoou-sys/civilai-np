@@ -16,7 +16,7 @@ st.write(
 )
 
 # Engineering tools
-tab1, tab2, tab3 = st.tabs([
+tab1, tab2, tab3, tab4 = st.tabs([
     "Concrete Calculator",
     "Brickwork Calculator",
     "AI Engineering Assistant"
